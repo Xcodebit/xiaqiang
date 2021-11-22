@@ -1,0 +1,92 @@
+main {
+    width:1100px;
+    margin: 0 auto;
+    .ant-carousel .slick-slide {
+        margin-top: 20px;
+        text-align: center;
+        height: 400px;
+        line-height: 400px;
+        background: #364d79;
+        overflow: hidden;
+    }
+    .ant-carousel .slick-slide h3 {
+        color: #fff;
+    }
+    .dataList{
+        //width: 1000px;
+        //margin: 0 auto;
+
+    }
+    .list:nth-child(even){
+        margin-right: 0;
+    }
+    .list{
+        float: left;
+        width: 545px;
+        margin: 20px 10px 0 0;
+        .tit{
+            height: 41px;
+            background: #108EE9;
+            text-align: center;
+            i{
+                width: 185px;
+                display: inline-block;
+                font-style: normal;
+                font-size: 16px;
+                color: #fff;
+                line-height: 41px;
+                text-align: left;
+            }
+            img{
+                float: left;
+                margin-right: 6px;
+            }
+        }
+        .content{
+            position:relative;
+            padding: 5px 15px;
+            border: 1px solid #ddd;
+            height: 155px;
+            font-size: 14px;
+            img{
+                float: left;
+                margin-right: 14px;
+            }
+            .enter{
+                position:absolute;
+                right:20px;
+                bottom: 10px;
+            }
+            .button_a{
+                display: inline-block;
+                color: #fff;
+                background-color: #108ee9;
+                border-color: #108ee9;
+                width: 80px;
+                height: 28px;
+                line-height: 1.5;
+                padding: 4px 15px;
+                font-size: 12px;
+                border-radius: 4px;
+                &:hover{
+                    background: #49A9EE;
+                    border-color: #49A9EE;
+                }
+            }
+        }
+        .videobg{
+            background: #f9f9f9 url(img/zxsp.png) no-repeat center left;
+        }
+    }
+
+    .menu {
+        padding: 15px;
+        a {
+            color: #000000;
+            text-decoration: none;
+            font-family: "PingFang HK";
+            margin-right: 20px;
+        }
+    }
+}
+

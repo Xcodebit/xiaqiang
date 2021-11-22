@@ -1,0 +1,34 @@
+.container {
+    background: #FFFFFF;
+    width: 100%;
+    header {
+        width:90%;
+        border-bottom: 1px #E1E1E1 solid;
+        margin: 0 auto;
+        .border_bottom{
+            box-sizing: border-box;
+            width:80%;
+            height:75px;
+            margin: 0 auto;
+            color: #7b7a7a;
+        }
+        .menus {
+            position: relative;
+            z-index: 9999;
+            float: right;
+            padding-top: 28px;
+        }
+    }
+    footer{
+        height:65px;
+        line-height: 65px;
+        width:100%;
+        background: rgba(15,139,175,.8);
+        -webkit-background: rgba(15,139,175,.8);
+        font-size: 14px;
+        color:#fff;
+        text-align: center;
+        margin-top: 19px;
+    }
+
+}

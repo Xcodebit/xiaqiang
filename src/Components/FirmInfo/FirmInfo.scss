@@ -1,0 +1,35 @@
+@import '../../Style/mixin';
+
+.firm_infroduce{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    .breadcrumb{
+        @include lh (40px);
+        width: 80%;
+        margin: 0 auto;
+    }
+    .firm_main{
+        width: 90%;
+        margin: 0 auto;
+        .content_text{
+            width: 100%;
+            margin: 0 auto;
+            padding: 40px 20px;
+            border: 1px solid #ccc;
+            border-top:0;
+            p{
+                font-size: 14px;
+            }
+        }
+    }
+    .ant-breadcrumb{
+        float:right;
+    }
+    .c_t_title{
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+}
+

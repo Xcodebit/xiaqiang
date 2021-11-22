@@ -1,0 +1,39 @@
+@import '../../Style/mixin';
+
+.worksCenter{
+    .w_c_content{
+        margin: 49px 0 20px;
+        &>li{
+            margin-bottom: 20px;
+            border-bottom: 1px dotted #ccc;
+            padding-bottom: 20px;
+        }
+    }
+    .w_c_date{
+        display: inline-block;
+        background: #008D8D;
+        color: #fff;
+        font-size: 16px;
+        padding: 5px 8px;
+        margin-right: 5px;
+    }
+    .works_c_list{
+        li{
+            float: left;
+            margin-right: 40px;
+            .ant-card-body:hover{
+                cursor: pointer;
+            }
+            a{
+                display: inline-block;
+            }
+        }
+    }
+    .custom-image img {
+        display: block;
+        height: 170px;
+    }
+    .custom-card {
+        padding: 10px 16px;
+    }
+}

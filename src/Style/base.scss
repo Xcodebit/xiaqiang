@@ -1,0 +1,26 @@
+@import './reset.scss';
+@import './mixin.scss';
+@import './vender/antd.css';
+@import "./vender/nprogress.css";
+
+/* 浮动公共样式 */
+.left{ float:left; _display:inline; }
+.right{ float:right; _display:inline; }
+.clear:after{ display:block; content:''; clear:both;}
+.clear{ zoom:1;}
+
+.ellipsis{
+    display: -webkit-box;
+    /* autoprefixer: off */
+    -webkit-box-orient: vertical;
+    /* autoprefixer: on */
+    -webkit-line-clamp: 5;
+    overflow: hidden;
+    height: 105px;
+}
+.berCenter_bg{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+

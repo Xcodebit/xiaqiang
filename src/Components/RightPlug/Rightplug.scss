@@ -1,0 +1,50 @@
+@import '../../Style/mixin';
+
+$rodio-check-color: #e4393c;
+.right_plug{
+    position: fixed;
+    right: 0;
+    top: 40%;
+    background-color: #586b79;
+    width: 50px;
+    z-index: 99;
+    .right_list{
+        li{
+            position: relative;
+            text-align: center;
+            height: 47px;
+            line-height: 47px;
+            border-bottom: 1px solid #8c8b8b;
+            &:hover{
+                cursor: pointer;
+                background: #606f79;
+            }
+            .r_p_common{
+                @include wh(50px, 46px);
+                display: inline-block;
+                &:hover{
+                    transform: scale(1.2);
+                    @include transform(transform, 0.3s);
+                }
+            }
+            .email{
+                background: url(./Img/email.png) no-repeat center center;
+            }
+            .qq{
+                background: url(./Img/qq.png) no-repeat center center;
+            }
+            .phone{
+                background: url(./Img/phone.png) no-repeat center center;
+            }
+            .wechat{
+                background: url(./Img/wechat.png) no-repeat center center;
+            }
+        }
+
+    }
+}
+.phone_content{
+    p{
+        @include lh(30px);
+    }
+}
